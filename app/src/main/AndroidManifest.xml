@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.angelatheangel.attempt3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Mindmappdf"></activity>
+        <activity android:name=".Fridges" />
+        <activity android:name=".Heatloss" />
+        <activity android:name=".Energy" />
+        <activity android:name=".Chooseaphysicstopic" />
+        <activity android:name=".Trainscenario" />
+        <activity android:name=".Howtoreviselibrary" />
+        <activity android:name=".Wheretorevise" />
+        <activity android:name=".averagesandrangesrevision" />
+        <activity android:name=".completingthesquarerevision" />
+        <activity android:name=".densityandpressurerevision" />
+        <activity android:name=".surfacearearevision" />
+        <activity android:name=".volumesrevision" />
+        <activity android:name=".vectorsrevision" />
+        <activity android:name=".trigpropertiesrevision" />
+        <activity android:name=".pythagorasrevision" />
+        <activity android:name=".Areaperimeterandvolumerevision" />
+        <activity android:name=".elevationsrevision" />
+        <activity android:name=".D2D3shapesrevision" />
+        <activity android:name=".anglepropertiesrevision" />
+        <activity android:name=".geometricreasoningrevision" />
+        <activity android:name=".reallifegraphsrevision" />
+        <activity android:name=".factorisingrevision" />
+        <activity android:name=".expandingbracketsrevision" />
+        <activity android:name=".areaundergraphrevision" />
+        <activity android:name=".rootsandothersrevision" />
+        <activity android:name=".gradrevision" />
+        <activity android:name=".exponentialgraphsrevision" />
+        <activity android:name=".quadgraphsrevision" />
+        <activity android:name=".lineargraphsrevision" />
+        <activity android:name=".simrevision" />
+        <activity android:name=".algebraicproofrevision" />
+        <activity android:name=".algebraicfractionsrevision" />
+        <activity android:name=".changingthesubjectrevision" />
+        <activity android:name=".quadraticequationsrevision" />
+        <activity android:name=".linearequationsrevision" />
+        <activity android:name=".collectingliketermsrevision" />
+        <activity android:name=".expressionsrevision" />
+        <activity android:name=".inverserevision" />
+        <activity android:name=".directrevision" />
+        <activity android:name=".ratiorevision" />
+        <activity android:name=".conversiongraphsrevision" />
+        <activity android:name=".surdsrevision" />
+        <activity android:name=".standardformrevision" />
+        <activity android:name=".rootsrevision" />
+        <activity android:name=".approximationsrevision" />
+        <activity android:name=".multiplesrevision" />
+        <activity android:name=".factorsrevision" />
+        <activity android:name=".fractionsrevision" />
+        <activity android:name=".decimalsrevision" />
+        <activity android:name=".Bodmasandoperationsrevision" />
+        <activity android:name=".GetExplanationsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Integersandnegativenumbersrevision" />
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity android:name=".mainpageofapp">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseTopicActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NumbersTopic">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlgebraTopic">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GraphsTopic">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StatisticsTopic">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Integersandnegativenumbers">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bodmasandoperations">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fractionsandpercentages">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FactorsandHCF">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MultiplesandLCM">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Decimalsandrounding">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Approximations">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rootsandpowers">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StandardForm">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Surds">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConversionGraphs">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ratio">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DirectProportions">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inverseproportion">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntegersandnegativenumbersQLibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BodmasandoperationsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DecimalsandroundingQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FractionsandpercentagesQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FactorsandHCFQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ApproximationsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MultiplesandLCMQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RootsandpowersQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StandardformQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SurdsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConversiongraphsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RatioQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DirectproportionQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InverseproportionQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Algebraiexpressions">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlgebraiexpressionsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Collectingliketerms">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CollectingliketermsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Linearequations">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LinearequationsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quadraticequations">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuadraticequationsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Changingthesubject">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangingthesubjectQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Algebraicfractions">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlgebraicfractionsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Algebraicproof">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlgebraicproofQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Simultaneousequations">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimultaneousequationsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lineargraphs">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LineargraphsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quadraticgraphs">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuadraticgraphsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Exponentialgraphs">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExponentialgraphsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Gradients">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GradientsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RootsInterceptsTurningpoints">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RootsInterceptsTurningpointsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Areaundergraphs">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AreaundergraphsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Expandingbrackets">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExpandingbracketsQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Factorising">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FactorisingQlibrary">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reallifegraphs"
+            android:label="@string/title_activity_reallifegraphs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReallifegraphsQlibrary"
+            android:label="@string/title_activity_reallifegraphs_qlibrary" />
+        <activity
+            android:name=".Geometricreasoning"
+            android:label="@string/title_activity_geometricreasoning" />
+        <activity
+            android:name=".GeometricreasoningQlibrary"
+            android:label="@string/title_activity_geometricreasoning_qlibrary" />
+        <activity
+            android:name=".Angleproperties"
+            android:label="@string/title_activity_angleproperties" />
+        <activity
+            android:name=".AnglepropertiesQlibrary"
+            android:label="@string/title_activity_angleproperties_qlibrary" />
+        <activity
+            android:name=".Shapes2D3D"
+            android:label="@string/title_activity_shapes2_d3_d" />
+        <activity
+            android:name=".Shapes2D3DQlibrary"
+            android:label="@string/title_activity_shapes2_d3_dqlibrary" />
+        <activity
+            android:name=".Elevations"
+            android:label="@string/title_activity_elevations" />
+        <activity
+            android:name=".ElevationsQlibrary"
+            android:label="@string/title_activity_elevations_qlibrary" />
+        <activity
+            android:name=".Areaperimetervolume"
+            android:label="@string/title_activity_areaperimetervolume" />
+        <activity
+            android:name=".AreaperimetervolumeQlibrary"
+            android:label="@string/title_activity_areaperimetervolume_qlibrary" />
+        <activity
+            android:name=".Pythagorasandareaoftriangles"
+            android:label="@string/title_activity_pythagorasandareaoftriangles" />
+        <activity
+            android:name=".PythagorasandareaoftrianglesQlibrary"
+            android:label="@string/title_activity_pythagorasandareaoftriangles_qlibrary" />
+        <activity
+            android:name=".Trig"
+            android:label="@string/title_activity_trig" />
+        <activity
+            android:name=".TrigQlibrary"
+            android:label="@string/title_activity_trig_qlibrary" />
+        <activity
+            android:name=".Vectorsandproofs"
+            android:label="@string/title_activity_vectorsandproofs" />
+        <activity
+            android:name=".VectorsandproofsQlibrary"
+            android:label="@string/title_activity_vectorsandproofs_qlibrary" />
+        <activity
+            android:name=".Volumes"
+            android:label="@string/title_activity_volumes" />
+        <activity
+            android:name=".VolumesQlibrary"
+            android:label="@string/title_activity_volumes_qlibrary" />
+        <activity
+            android:name=".Surfaceareas"
+            android:label="@string/title_activity_surfaceareas" />
+        <activity
+            android:name=".SurfaceareasQlibrary"
+            android:label="@string/title_activity_surfaceareas_qlibrary" />
+        <activity
+            android:name=".Densityandpressure"
+            android:label="@string/title_activity_densityandpressure" />
+        <activity
+            android:name=".DensityandpressureQlibrary"
+            android:label="@string/title_activity_densityandpressure_qlibrary" />
+        <activity
+            android:name=".Completingthesquare"
+            android:label="@string/title_activity_completingthesquare" />
+        <activity
+            android:name=".CompletingthesquareQlibrary"
+            android:label="@string/title_activity_completingthesquare_qlibrary" />
+        <activity
+            android:name=".Averagesandranges"
+            android:label="@string/title_activity_averagesandranges" />
+        <activity
+            android:name=".AveragesandrangesQlibrary"
+            android:label="@string/title_activity_averagesandranges_qlibrary" />
+        <activity android:name=".ForcesGame">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultsActivity" />
+        <activity android:name=".SignupActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Authentication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextDetectorMain">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Physicsrevisionvideos">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Speclist" />
+        <activity android:name=".mindmap" />
+        <activity android:name=".Revisiontips">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Howtorevise">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

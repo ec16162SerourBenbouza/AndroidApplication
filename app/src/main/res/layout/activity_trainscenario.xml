@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trainscenario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="videoplayer"
+                android:text="Play Video" />
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In the scenario above, the equation for the first part of the journey is which of the following"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="369dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="score"
+                android:text="v=d/t"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="404dp"
+
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans"
+                android:text="v=-d/t"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="445dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans"
+                android:text="a=d/t" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In the second part of the Pisa-Paris journey. The train.." />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="score2"
+                android:text="Sped up" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans1"
+                android:text="Slowed down" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans1"
+                android:text="carried on at the constant speed " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As the train comes to a stop at Paris, it must..." />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="score3"
+                android:text="Decelerate" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans2"
+                android:text="accelerate" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans2"
+                android:text="brake" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As people get off the train, will the force on it from the ground" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans3"
+                android:text="increase" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="score4"
+                android:text="decrease" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans3"
+                android:text="stay constant" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Newtons second law of motion is" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans4"
+                android:text="For every action there is an equal and opposite reaction" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="score5"
+                android:text="F=ma" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wrongans4"
+                android:text="E=mc2" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

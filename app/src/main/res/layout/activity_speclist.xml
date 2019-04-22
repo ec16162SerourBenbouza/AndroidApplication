@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Speclist">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Number Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N1" />
+
+            <CheckBox
+                android:id="@+id/n2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N2" />
+
+            <CheckBox
+                android:id="@+id/n3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N3" />
+
+            <CheckBox
+                android:id="@+id/n4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N4" />
+
+            <CheckBox
+                android:id="@+id/n5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N5" />
+
+            <CheckBox
+                android:id="@+id/n6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N6" />
+
+
+            <CheckBox
+                android:id="@+id/n7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N7" />
+
+            <CheckBox
+                android:id="@+id/n8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N8" />
+
+            <CheckBox
+                android:id="@+id/n9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N9" />
+
+            <CheckBox
+                android:id="@+id/n10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N10" />
+
+            <CheckBox
+                android:id="@+id/n11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N11" />
+
+            <CheckBox
+                android:id="@+id/n12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N12" />
+
+            <CheckBox
+                android:id="@+id/n13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N13" />
+
+            <CheckBox
+                android:id="@+id/n14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N14" />
+
+            <CheckBox
+                android:id="@+id/n15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N15" />
+
+            <CheckBox
+                android:id="@+id/n16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N16" />
+
+            <CheckBox
+                android:id="@+id/n17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/N17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Algebra Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A1" />
+
+            <CheckBox
+                android:id="@+id/A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A2" />
+
+            <CheckBox
+                android:id="@+id/A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A3" />
+
+            <CheckBox
+                android:id="@+id/A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A4" />
+
+            <CheckBox
+                android:id="@+id/A5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A5" />
+
+            <CheckBox
+                android:id="@+id/A6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A6" />
+
+
+            <CheckBox
+                android:id="@+id/A7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A7" />
+
+            <CheckBox
+                android:id="@+id/A8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Graphs Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/G1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G1" />
+
+            <CheckBox
+                android:id="@+id/G2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G2" />
+
+            <CheckBox
+                android:id="@+id/G3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G3" />
+
+            <CheckBox
+                android:id="@+id/G4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G4" />
+
+            <CheckBox
+                android:id="@+id/G5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G5" />
+
+            <CheckBox
+                android:id="@+id/G6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G6" />
+
+
+            <CheckBox
+                android:id="@+id/G7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G7" />
+
+            <CheckBox
+                android:id="@+id/G8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Geometry Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/G9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G9" />
+
+
+            <CheckBox
+                android:id="@+id/G10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G10" />
+
+            <CheckBox
+                android:id="@+id/G11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/G11" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Energy Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/P1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P1" />
+
+            <CheckBox
+                android:id="@+id/P2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P2" />
+
+            <CheckBox
+                android:id="@+id/P3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P3" />
+
+            <CheckBox
+                android:id="@+id/P4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P4" />
+
+            <CheckBox
+                android:id="@+id/P5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P5" />
+
+            <CheckBox
+                android:id="@+id/P6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P6" />
+
+
+            <CheckBox
+                android:id="@+id/P7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P7" />
+
+            <CheckBox
+                android:id="@+id/P8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P8" />
+
+            <CheckBox
+                android:id="@+id/P9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P9" />
+
+            <CheckBox
+                android:id="@+id/P10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P10" />
+
+            <CheckBox
+                android:id="@+id/P11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P11" />
+
+            <CheckBox
+                android:id="@+id/P12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P12" />
+
+            <CheckBox
+                android:id="@+id/P13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P13" />
+
+            <CheckBox
+                android:id="@+id/P14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P14" />
+
+
+            <CheckBox
+                android:id="@+id/P15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P15" />
+
+            <CheckBox
+                android:id="@+id/P16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P16" />
+
+            <CheckBox
+                android:id="@+id/P17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P17" />
+
+
+            <CheckBox
+                android:id="@+id/P18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P18" />
+
+            <CheckBox
+                android:id="@+id/P19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P19" />
+
+            <CheckBox
+                android:id="@+id/P20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P20" />
+
+            <CheckBox
+                android:id="@+id/P21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P21" />
+
+
+            <CheckBox
+                android:id="@+id/P22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P22" />
+
+            <CheckBox
+                android:id="@+id/P23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P23" />
+
+            <CheckBox
+                android:id="@+id/P24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P24" />
+
+            <CheckBox
+                android:id="@+id/P25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/P25" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Electricity Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/E1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E1" />
+
+            <CheckBox
+                android:id="@+id/E2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E2" />
+
+            <CheckBox
+                android:id="@+id/E3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E3" />
+
+            <CheckBox
+                android:id="@+id/E4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E4" />
+
+            <CheckBox
+                android:id="@+id/E5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E5" />
+
+            <CheckBox
+                android:id="@+id/E6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E6" />
+
+
+            <CheckBox
+                android:id="@+id/E7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E7" />
+
+            <CheckBox
+                android:id="@+id/E8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E8" />
+
+            <CheckBox
+                android:id="@+id/E9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E9" />
+
+            <CheckBox
+                android:id="@+id/E10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E10" />
+
+            <CheckBox
+                android:id="@+id/E11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E11" />
+
+            <CheckBox
+                android:id="@+id/E12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E12" />
+
+            <CheckBox
+                android:id="@+id/E13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E13" />
+
+            <CheckBox
+                android:id="@+id/E14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E14" />
+
+
+            <CheckBox
+                android:id="@+id/E15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E15" />
+
+            <CheckBox
+                android:id="@+id/E16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E16" />
+
+            <CheckBox
+                android:id="@+id/E17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E17" />
+
+
+            <CheckBox
+                android:id="@+id/E18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E18" />
+
+            <CheckBox
+                android:id="@+id/E19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E19" />
+
+            <CheckBox
+                android:id="@+id/E20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E20" />
+
+            <CheckBox
+                android:id="@+id/E21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E21" />
+
+
+            <CheckBox
+                android:id="@+id/E22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E22" />
+
+            <CheckBox
+                android:id="@+id/E23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E23" />
+
+            <CheckBox
+                android:id="@+id/E24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E24" />
+
+            <CheckBox
+                android:id="@+id/E25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/E25" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Molecules and Matter Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/M1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M1" />
+
+            <CheckBox
+                android:id="@+id/M2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M2" />
+
+            <CheckBox
+                android:id="@+id/M3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M3" />
+
+            <CheckBox
+                android:id="@+id/M4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M4" />
+
+            <CheckBox
+                android:id="@+id/M5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M5" />
+
+            <CheckBox
+                android:id="@+id/M6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M6" />
+
+
+            <CheckBox
+                android:id="@+id/M7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M7" />
+
+            <CheckBox
+                android:id="@+id/M8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M8" />
+
+            <CheckBox
+                android:id="@+id/M9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M9" />
+
+            <CheckBox
+                android:id="@+id/M10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M10" />
+
+            <CheckBox
+                android:id="@+id/M11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M11" />
+
+            <CheckBox
+                android:id="@+id/M12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M12" />
+
+            <CheckBox
+                android:id="@+id/M13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M13" />
+
+            <CheckBox
+                android:id="@+id/M14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M14" />
+
+
+            <CheckBox
+                android:id="@+id/M15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M15" />
+
+            <CheckBox
+                android:id="@+id/M16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M16" />
+
+            <CheckBox
+                android:id="@+id/M17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M17" />
+
+
+            <CheckBox
+                android:id="@+id/M18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M18" />
+
+            <CheckBox
+                android:id="@+id/M19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M19" />
+
+            <CheckBox
+                android:id="@+id/M20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M20" />
+
+            <CheckBox
+                android:id="@+id/M21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M21" />
+
+
+            <CheckBox
+                android:id="@+id/M22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M22" />
+
+            <CheckBox
+                android:id="@+id/M23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M23" />
+
+            <CheckBox
+                android:id="@+id/M24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M24" />
+
+            <CheckBox
+                android:id="@+id/M25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M25" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Radioactivity Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/R1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R1" />
+
+            <CheckBox
+                android:id="@+id/R2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R2" />
+
+            <CheckBox
+                android:id="@+id/R3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R3" />
+
+            <CheckBox
+                android:id="@+id/R4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R4" />
+
+            <CheckBox
+                android:id="@+id/R5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R5" />
+
+            <CheckBox
+                android:id="@+id/R6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R6" />
+
+
+            <CheckBox
+                android:id="@+id/R7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R7" />
+
+            <CheckBox
+                android:id="@+id/R8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R8" />
+
+            <CheckBox
+                android:id="@+id/R9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R9" />
+
+            <CheckBox
+                android:id="@+id/R10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R10" />
+
+            <CheckBox
+                android:id="@+id/R11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R11" />
+
+            <CheckBox
+                android:id="@+id/R12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R12" />
+
+            <CheckBox
+                android:id="@+id/R13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R13" />
+
+            <CheckBox
+                android:id="@+id/R14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R14" />
+
+
+            <CheckBox
+                android:id="@+id/R15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R15" />
+
+            <CheckBox
+                android:id="@+id/R16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R16" />
+
+            <CheckBox
+                android:id="@+id/R17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R17" />
+
+
+            <CheckBox
+                android:id="@+id/R18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R18" />
+
+            <CheckBox
+                android:id="@+id/R19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R19" />
+
+            <CheckBox
+                android:id="@+id/R20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R20" />
+
+            <CheckBox
+                android:id="@+id/R21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R21" />
+
+
+            <CheckBox
+                android:id="@+id/R22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R22" />
+
+            <CheckBox
+                android:id="@+id/R23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R23" />
+
+            <CheckBox
+                android:id="@+id/R24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R24" />
+
+            <CheckBox
+                android:id="@+id/R25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R25" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Forces Specification"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/F1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F1" />
+
+            <CheckBox
+                android:id="@+id/F2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F2" />
+
+            <CheckBox
+                android:id="@+id/F3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F3" />
+
+            <CheckBox
+                android:id="@+id/F4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F4" />
+
+            <CheckBox
+                android:id="@+id/F5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F5" />
+
+            <CheckBox
+                android:id="@+id/F6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F6" />
+
+
+            <CheckBox
+                android:id="@+id/F7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F7" />
+
+            <CheckBox
+                android:id="@+id/F8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F8" />
+
+            <CheckBox
+                android:id="@+id/F9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F9" />
+
+            <CheckBox
+                android:id="@+id/F10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F10" />
+
+            <CheckBox
+                android:id="@+id/F11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F11" />
+
+            <CheckBox
+                android:id="@+id/F12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F12" />
+
+            <CheckBox
+                android:id="@+id/F13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F13" />
+
+            <CheckBox
+                android:id="@+id/F14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F14" />
+
+
+            <CheckBox
+                android:id="@+id/F15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F15" />
+
+            <CheckBox
+                android:id="@+id/F16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F16" />
+
+            <CheckBox
+                android:id="@+id/F17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F17" />
+
+
+            <CheckBox
+                android:id="@+id/F18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F18" />
+
+            <CheckBox
+                android:id="@+id/F19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F19" />
+
+            <CheckBox
+                android:id="@+id/F20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F20" />
+
+            <CheckBox
+                android:id="@+id/F21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F21" />
+
+
+            <CheckBox
+                android:id="@+id/F22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F22" />
+
+            <CheckBox
+                android:id="@+id/F23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F23" />
+
+            <CheckBox
+                android:id="@+id/F24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F24" />
+
+            <CheckBox
+                android:id="@+id/F25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F25" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

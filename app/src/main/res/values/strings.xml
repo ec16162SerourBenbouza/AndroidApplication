@@ -1,0 +1,371 @@
+<resources>
+    <string name="app_name">Maths4Physics</string>
+    <string name="Start_Topic">new button</string>
+    <string name="Numbers_Subtopics">These are the subtopics in Numbers. You should consider covering all these</string>
+    <string name="Algebra_Subtopics">These are the subtopics in Algebra. You should consider covering all these</string>
+    <string name="Graphs_Subtopics">These are the subtopics in Graphs. You should consider covering all these</string>
+    <string name="Statistics_Subtopics">These are the subtopics in Statistics. You should consider covering all these</string>
+    <string name="QNo">Question Number</string>
+    <string name="Score">Score</string>
+    <string name="Question_Random">Here is a Question</string>
+    <string name="Answer_Please">Write your answer</string>
+    <string name="Check_answer">Submit</string>
+    <string name="Your_Score">You Scored</string>
+
+
+    <string name="N1">Order positive and negative integers, decimals and fractions</string>
+    <string name="N2">Applying the four operations</string>
+    <string name="N3">Understanding place values</string>
+    <string name="N4">Perform inverse operations</string>
+    <string name="N5">Simplify calculations</string>
+    <string name="N6">The correct order of using BODMAS</string>
+    <string name="N7">Understand and use prime number, factor, LCM, HCF etc</string>
+    <string name="N8">The product rule</string>
+    <string name="N9">Manipulating powers and roots</string>
+    <string name="N10">Calculating roots and powers as fractions</string>
+    <string name="N11">Surds and laws of surds</string>
+    <string name="N12">Using standard form</string>
+    <string name="N13">Terminating decimals and recurring decimals</string>
+    <string name="N14">Fractions and ratio problems</string>
+    <string name="N15">Interchange between fractions, percentages and ratio</string>
+    <string name="N16">Standard units of time, money, distance etc</string>
+    <string name="N17">Number Estimations and rounding</string>
+
+    <string name="A1">Use algebraic manipulations of multiplication, addition, division, powers etc</string>
+    <string name="A2">Substitute numerical values into formulae and expressions</string>
+    <string name="A3">Collecting like terms</string>
+    <string name="A4">Multiplying a single term over a bracket</string>
+    <string name="A5">Taking out common factors</string>
+    <string name="A6">Expanding binomials</string>
+    <string name="A7">Solving Quadratic equations</string>
+    <string name="A8">Perform Algebraic Proofs</string>
+
+    <string name="G1">work with coordinates in all four quadrants</string>
+    <string name="G2">plot graphs of equations</string>
+    <string name="G3">Equation of a straight line</string>
+    <string name="G4">Understand gradients and intercepts</string>
+    <string name="G5">Identify and calculate roots and turning points</string>
+    <string name="G6">Identify and sketch linear graphs</string>
+    <string name="G7">Plot quadratic and exponential graphs</string>
+    <string name="G8">Recognise and use the equation of a circle to solve questions </string>
+
+    <string name="G9">Manipulate pythagoras to work out all sides</string>
+    <string name="G10">Sine and Cosine rules</string>
+    <string name="G11">SOH CAH TOA</string>
+
+    <string name="P1">Describe ways in which energy can be stored.</string>
+    <string name="P2">Describe how energy can be transferred.</string>
+    <string name="P3">Describe the energy transfers that happen when an object falls.</string>
+    <string name="P4">Describe the energy transfers that happen when a falling object hits the ground without bouncing back.</string>
+    <string name="P5">Describe what conservation of energy is.</string>
+    <string name="P6">Explain why conservation of energy is a very important idea.</string>
+    <string name="P7">Describe what a closed system is.</string>
+    <string name="P8">Describe energy transfers in a closed system.</string>
+    <string name="P9">Describe what work means in science.</string>
+    <string name="P10">Describe how work and energy are related.</string>
+    <string name="P11">Calculate the work done by a force.</string>
+    <string name="P12">Describe what happens to work that is done to overcome friction.</string>
+    <string name="P13">Describe what happens to the gravitational potential energy store of an object when it moves up and down.</string>
+    <string name="P14">I can explain why an object moving up increases its gravitational potential energy store.</string>
+    <string name="P15">Explain why it is easier to lift an object on the Moon rather than on Earth.</string>
+    <string name="P16">Calculate the change in gravitational potential energy of an object when it moves up and down.</string>
+    <string name="P17">Write down what the kinetic energy of an object depends on.</string>
+    <string name="P18">Calculate kinetic energy.</string>
+    <string name="P19">Describe what an elastic potential energy store is.</string>
+    <string name="P20">Calculate the amount of energy in an elastic potential energy store. </string>
+    <string name="P21">Describe what is meant by useful energy.</string>
+    <string name="P22">Describe what is meant by wasted energy.</string>
+    <string name="P23">Describe what eventually happens to wasted energy.</string>
+    <string name="P24">Describe if energy is still as useful after it is used.</string>
+    <string name="P25">Describe what is meant by efficiency.</string>
+
+    <string name="E1">Describe how electric circuits are shown as diagrams.</string>
+    <string name="E2">Write down the difference between a battery and a cell.</string>
+    <string name="E3">Describe what determines the size of an electric current.</string>
+    <string name="E4">Calculate the size of an electric current from the charge flow and the time taken.</string>
+    <string name="E5">Write down what is meant by potential difference.</string>
+    <string name="E6">Write down Ohm’s law.</string>
+    <string name="E7">Describe what happens to the resistance of a filament lamp as its temperature increases.</string>
+    <string name="E8">Describe the potential difference of several cells in series.</string>
+    <string name="E9">Calculate the total resistance of two resistors in series.</string>
+    <string name="E10">Explain why adding resistors in series increases the total resistance.</string>
+    <string name="E11">Calculate the current through a resistor in a parallel circuit.</string>
+    <string name="E12">Write down what direct current is and what alternating current is.</string>
+    <string name="E13">Describe the National Grid.</string>
+    <string name="E14">Write down what is in a mains cable.</string>
+    <string name="E15">Write down the colours of the live, neutral, and earth wires. </string>
+    <string name="E16">Use the power rating of an appliance to calculate the energy transferred in a given time.</string>
+    <string name="E17">Calculate the electrical power supplied to a device from its current and potential difference.</string>
+    <string name="E18">Work out the correct fuse to use in an appliance.</string>
+    <string name="E19">Calculate the flow of electric charge given the current and time.</string>
+    <string name="E20">Write down the energy transfers when electric charge flows through a resistor.</string>
+    <string name="E21">Describe how the energy transferred by a flow of electric charge is related to potential difference.</string>
+    <string name="E22">Work out the useful energy output of an electrical appliance.</string>
+    <string name="E23">Work out the output power of an electrical appliance.</string>
+    <string name="E24">Compare different appliances that do the same job.</string>
+    <string name="E25">Calculate the energy supplied to an electrical appliance from its current, its potential difference, and how long it is used for.</string>
+
+    <string name="M1">Define density and write down its unit.</string>
+    <string name="M2">Describe how to measure the density of a solid object or a liquid.</string>
+    <string name="M3">Use the density equation to calculate the mass or the volume of an object or a sample.</string>
+    <string name="M4">Describe how to tell from its density if an object will float in water.</string>
+    <string name="M5">Describe the different properties of solids, liquids, and gases.</string>
+    <string name="M6">Describe the arrangement of particles in a solid, a liquid, and a gas.</string>
+    <string name="M7">Explain why gases are less dense than solids and liquids.</string>
+    <string name="M8">Explain why the mass of a substance that changes state stays the same.</string>
+    <string name="M9">Describe what you need to do to melt a solid or to boil a liquid.</string>
+    <string name="M10">Explain the difference between boiling and evaporation.</string>
+    <string name="M11">Use a temperature-time graph to find the melting point or the boiling point of a substance.</string>
+    <string name="M12">Describe how increasing the temperate of a substance affects its internal energy.</string>
+    <string name="M13">Explain the different properties of a solid, a liquid, and a gas.</string>
+    <string name="M14">Describe how the energy of the particles of a substance changes when it is heated.</string>
+    <string name="M15">Explain in terms of particles why a gas exerts pressure.</string>
+    <string name="M16">Write down what latent heat means as a substance changes its state.</string>
+    <string name="M17">Write down what specific latent heat of fusion and of vaporisation mean.</string>
+    <string name="M18">Use specific latent heat in calculations.</string>
+    <string name="M19">Describe how to measure the specific heat latent heat of ice and of water.</string>
+    <string name="M20">Describe how a gas exerts pressure on a surface.</string>
+    <string name="M21">Describe how changing the temperature of a gas in a sealed container affects the pressure of the gas.</string>
+    <string name="M22">Explain why raising the temperature of a gas in a sealed container affects the pressure of the gas.</string>
+    <string name="M23">Describe how to see evidence of gas molecules moving around at random.</string>
+    <string name="M24">Use the equation    pV = constant.</string>
+    <string name="M25">Explain why the temperature of a gas increases when it is compressed quickly enough.</string>
+
+
+    <string name="R1">Write down what a radioactive substance is.</string>
+    <string name="R2">Write down the types of radiation given out from a radioactive substance.</string>
+    <string name="R3">Write down what happens when a radioactive source emits radiation (radioactive decay).</string>
+    <string name="R4">Write down the different types of radiation emitted by radioactive sources.</string>
+    <string name="R5">Describe how the nuclear model of the atom was established. </string>
+    <string name="R6">Explain why the ‘plum pudding’ model of the atom was rejected.</string>
+    <string name="R7">Describe what conclusions were made about the atom from experimental evidence.</string>
+    <string name="R8">Explain why the nuclear model was accepted.</string>
+    <string name="R9">Write down what an isotope is.</string>
+    <string name="R10">Describe how the nucleus of an atom changes when it emits an alpha particle or a beta particle.</string>
+    <string name="R11">Represent the emission of an alpha particle from the nucleus.</string>
+    <string name="R12">Represent the emission of a beta particle from the nucleus.</string>
+    <string name="R13">Write down how far each type of radiation can travel in air.</string>
+    <string name="R14">Describe how different materials absorb alpha, beta, and gamma radiation.</string>
+    <string name="R15">Describe the ionising power of alpha, beta and gamma radiation.</string>
+    <string name="R16">Explain why alpha, beta, and gamma radiation are dangerous.</string>
+    <string name="R17">Write down what the half-life of a radioactive source means.</string>
+    <string name="R18">Write down what the count rate from a radioactive source means.</string>
+    <string name="R19">Describe what radioactive isotopes are used for in medicine.</string>
+    <string name="R20">Describe how to choose a radioactive isotope for a particular job.</string>
+    <string name="R21">State what nuclear fission is.</string>
+    <string name="R22">State what a chain reaction is.</string>
+    <string name="R23">State what nuclear fusion is.</string>
+    <string name="R24">Describe how safe nuclear reactors are.</string>
+    <string name="R25">Explain why nuclear waste is dangerous.</string>
+
+    <string name="F1">Write down what displacement is.</string>
+    <string name="F2">Write down what a vector quantity is.</string>
+    <string name="F3">Write down what a scalar quantity is.</string>
+    <string name="F4">Describe how to represent a vector quantity.</string>
+    <string name="F5">Write down what forces can do. </string>
+    <string name="F6">Write down the unit of force.</string>
+    <string name="F7">Write down what a contact force is.</string>
+    <string name="F8">Describe the forces being exerted when two objects interact.</string>
+    <string name="F9">Describe what a resultant force is.</string>
+    <string name="F10">Describe what happens if the resultant force on an object is zero.</string>
+    <string name="F11">Describe what happens if the resultant force on an object is greater than zero.</string>
+    <string name="F12">Calculate the resultant force when an object is acted by two forces acting along the same line.</string>
+    <string name="F13">State what a free-body force diagram is. </string>
+    <string name="F14">State what the moment of a force measures.</string>
+    <string name="F15">Calculate the moment of a force.</string>
+    <string name="F16">Describe how the moment of a force can be increased.</string>
+    <string name="F17">Describe why levers are force multipliers.</string>
+    <string name="F18">Describe how levers act as force multipliers.</string>
+    <string name="F19">Describe what gears do.</string>
+    <string name="F20">State what the centre of mass of an object is. </string>
+    <string name="F21">State where the centre of mass of a metre ruler is.</string>
+    <string name="F22">Find the centre of mass of a symmetrical object.</string>
+    <string name="F23">Identify the forces that can turn an object about a fixed point.</string>
+    <string name="F24">State what a parallelogram of forces is.</string>
+    <string name="F25">State what a parallelogram of forces is used for.</string>
+    <string-array name="physics">
+        <item>Please select an action</item>
+        <item>Trains</item>
+        <item>Fridges</item>
+        <item>cars</item>
+        <item>Energy</item>
+        <item>Heatloss</item>
+    </string-array>
+
+    <string-array name="explanations">
+        <item>Please select an action</item>
+        <item>Integers and Negative numbers</item>
+        <item>Bodmas and Operations</item>
+        <item>Decimals and Rounding</item>
+        <item>Fractions and Percentages</item>
+        <item>Factors and HCF</item>
+        <item>Multiples and LCM</item>
+        <item>Approximations</item>
+        <item>Roots and Powers</item>
+        <item>Standard Form</item>
+        <item>Surds</item>
+        <item>Conversion Graphs</item>
+        <item>Ratio</item>
+        <item>Direct Proportion</item>
+        <item>Inverse Proportion</item>
+        <item>Please Select a topic</item>
+        <item>Algebraic Expressions</item>
+        <item>Collecting Like Terms</item>
+        <item>Linear Equations</item>
+        <item>Quadratic Equations</item>
+        <item>Changing the subject</item>
+        <item>Algebraic Fractions</item>
+        <item>Algebraic Proof</item>
+        <item>Simultaneous Equations</item>
+        <item>Linear Graphs</item>
+        <item>Quadratic Graphs</item>
+        <item>Exponential Graphs</item>
+        <item>Gradients</item>
+        <item>Roots, intercepts and turning points</item>
+        <item>Area under the graph</item>
+        <item>Expanding brackets</item>
+        <item>Factorising</item>
+        <item>Please Select a topic</item>
+        <item>Real-life graphs</item>
+        <item>Geometric reasoning</item>
+        <item>Angle Properties</item>
+        <item>2D and 3D shapes and their properties</item>
+        <item>Elevations</item>
+        <item>Area, Perimeter and Volume</item>
+        <item>Pythagoras and Area of a triangle</item>
+        <item>Trigonometric Properties</item>
+        <item>Vectors and Proofs</item>
+        <item>Volumes</item>
+        <item>Surface areas</item>
+        <item>Density and Pressure</item>
+        <item>Completing the Square</item>
+        <item>Averages and ranges</item>
+    </string-array>
+
+    <string name="minus">\u207b</string>
+    <string-array name="Choose_Activity">
+        <item>Please select an action</item>
+        <item>Mathematics quizzes</item>
+        <item>Physics Content Video Revision</item>
+        <item>Specification Checklist</item>
+        <item>Physics Games</item>
+        <item>Revision Tips</item>
+        <item>Master Mind Map</item>
+        <item>Image to Text Recogniser</item>
+
+    </string-array>
+    <string-array name="Choose_Topic">
+        <item>Please Select a topic</item>
+        <item>Numbers</item>
+        <item>Algebra and Expressions</item>
+        <item>Graphs and Geometry</item>
+        <item>Statistics</item>
+    </string-array>
+    <string-array name="Number_Topics">
+        <item>Please Select a topic</item>
+        <item>Integers and Negative numbers</item>
+        <item>Bodmas and Operations</item>
+        <item>Decimals and Rounding</item>
+        <item>Fractions and Percentages</item>
+        <item>Factors and HCF</item>
+        <item>Multiples and LCM</item>
+        <item>Approximations</item>
+        <item>Roots and Powers</item>
+        <item>Standard Form</item>
+        <item>Surds</item>
+        <item>Conversion Graphs</item>
+        <item>Ratio</item>
+        <item>Direct Proportion</item>
+        <item>Inverse Proportion</item>
+    </string-array>
+    <string-array name="Algebra_Topics">
+        <item>Please Select a topic</item>
+        <item>Algebraic Expressions</item>
+        <item>Collecting Like Terms</item>
+        <item>Linear Equations</item>
+        <item>Quadratic Equations</item>
+        <item>Changing the subject</item>
+        <item>Algebraic Fractions</item>
+        <item>Algebraic Proof</item>
+        <item>Simultaneous Equations</item>
+        <item>Linear Graphs</item>
+        <item>Quadratic Graphs</item>
+        <item>Exponential Graphs</item>
+        <item>Gradients</item>
+        <item>Roots, intercepts and turning points</item>
+        <item>Area under the graph</item>
+        <item>Expanding brackets</item>
+        <item>Factorising</item>
+    </string-array>
+    <string-array name="Graphs_Topics">
+        <item>Please Select a topic</item>
+        <item>Real-life graphs</item>
+        <item>Geometric reasoning</item>
+        <item>Angle Properties</item>
+        <item>2D and 3D shapes and their properties</item>
+        <item>Elevations</item>
+        <item>Area, Perimeter and Volume</item>
+        <item>Pythagoras and Area of a triangle</item>
+        <item>Trigonometric Properties</item>
+        <item>Vectors and Proofs</item>
+        <item>Volumes</item>
+        <item>Surface areas</item>
+        <item>Density and Pressure</item>
+        <item>Completing the Square</item>
+    </string-array>
+
+    <string-array name="Statistics_Topics">
+        <item>Please Select a topic</item>
+        <item>Averages and ranges</item>
+    </string-array>
+    <string name="title_activity_reallifegraphs">Reallifegraphs</string>
+    <string name="title_activity_reallifegraphs_qlibrary">ReallifegraphsQlibrary</string>
+    <string name="title_activity_geometricreasoning">Geometricreasoning</string>
+    <string name="title_activity_geometricreasoning_qlibrary">GeometricreasoningQlibrary</string>
+    <string name="title_activity_angleproperties">Angleproperties</string>
+    <string name="title_activity_angleproperties_qlibrary">AnglepropertiesQlibrary</string>
+    <string name="title_activity_shapes2_d3_d">Shapes2D3D</string>
+    <string name="title_activity_shapes2_d3_dqlibrary">Shapes2D3DQlibrary</string>
+    <string name="title_activity_elevations">Elevations</string>
+    <string name="title_activity_elevations_qlibrary">ElevationsQlibrary</string>
+    <string name="title_activity_areaperimetervolume">Areaperimetervolume</string>
+    <string name="title_activity_areaperimetervolume_qlibrary">AreaperimetervolumeQlibrary</string>
+    <string name="title_activity_bearings">Bearings</string>
+    <string name="title_activity_bearings_qlibrary">BearingsQlibrary</string>
+    <string name="title_activity_pythagorasandareaoftriangles">Pythagorasandareaoftriangles</string>
+    <string name="title_activity_pythagorasandareaoftriangles_qlibrary">
+        PythagorasandareaoftrianglesQlibrary
+    </string>
+    <string name="title_activity_trig">Trig</string>
+    <string name="title_activity_trig_qlibrary">TrigQlibrary</string>
+    <string name="title_activity_sin_cos">SinCos</string>
+    <string name="title_activity_sin_cos_qlibrary">SinCosQlibrary</string>
+    <string name="title_activity_vectorsandproofs">Vectorsandproofs</string>
+    <string name="title_activity_vectorsandproofs_qlibrary">VectorsandproofsQlibrary</string>
+    <string name="title_activity_volumes">Volumes</string>
+    <string name="title_activity_volumes_qlibrary">VolumesQlibrary</string>
+    <string name="title_activity_surfaceareas">Surfaceareas</string>
+    <string name="title_activity_surfaceareas_qlibrary">SurfaceareasQlibrary</string>
+    <string name="title_activity_travelgraphsspeeddistancetime">Travelgraphsspeeddistancetime
+    </string>
+    <string name="title_activity_travelgraphsspeeddistancetime_qlibrary">
+        TravelgraphsspeeddistancetimeQlibrary
+    </string>
+    <string name="title_activity_densityandpressure">Densityandpressure</string>
+    <string name="title_activity_densityandpressure_qlibrary">DensityandpressureQlibrary</string>
+    <string name="title_activity_ratesofchange">Ratesofchange</string>
+    <string name="title_activity_ratesofchange_qlibrary">RatesofchangeQlibrary</string>
+    <string name="title_activity_completingthesquare">Completingthesquare</string>
+    <string name="title_activity_completingthesquare_qlibrary">CompletingthesquareQlibrary</string>
+    <string name="title_activity_histograms">Histograms</string>
+    <string name="title_activity_histograms_qlibrary">HistogramsQlibrary</string>
+    <string name="title_activity_scattergraphs">Scattergraphs</string>
+    <string name="title_activity_scattergraphs_qlibrary">ScattergraphsQlibrary</string>
+    <string name="title_activity_averagesandranges">Averagesandranges</string>
+    <string name="title_activity_averagesandranges_qlibrary">AveragesandrangesQlibrary</string>
+    <string name="title_activity_mainpageofapp">mainpageofapp</string>
+    <string name="title_activity_userregistration">Userregistration</string>
+
+
+</resources>
+

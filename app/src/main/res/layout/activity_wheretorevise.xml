@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wheretorevise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="400dp"
+                android:layout_height="803dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="0dp">
+
+                <TableRow
+                    android:layout_width="399dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Revision Websites"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:layout_weight="1"
+                        android:paddingRight="10dp"
+
+                        android:text="A website created by an individual to aid students in their revision progress."
+
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="67dp"
+                        android:text="Cheat Sheets"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="This is a list of rules and steps students can take to solve each type of question that can come up in an exam."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="117dp"
+                        android:layout_height="match_parent"
+                        android:text="Textbook Questions"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="Textbooks written by the exam provider tend to have hundreds of questions on each topic ready for the students to practice on."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:text="Mini Revision Booklets"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="A miniature revision booklet created by students to highlight topics or content that is of significance to them. "
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Annotations"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="Often used on mathematics notes to help keep rules highlighted. "
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Rewriting"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="Copying and recopying of notes under the impression that practice makes perfect."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="113dp"
+                        android:layout_height="match_parent"
+                        android:text="Videos and Tutorials"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="A video/tutorial created by an individual online aimed to explain one particular concept or question to a student in the most informative way."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="113dp"
+                        android:layout_height="match_parent"
+                        android:text="Mobile Applications"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="With the increase of smartphones owned by GCSE students. This is becoming a more and more on the go revision method for answering maths questions and memorising content. "
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Cue Cards"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="Also called flash cards. A method of writing back-to-back questions and answers and then using the cards as quiz."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="127dp"
+                        android:layout_height="match_parent"
+                        android:text="Specification Breakdown"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="This is generally a specification breakdown of topics and how well each student is doing in them. "
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Flow charts"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="A visual approach to tracking what comes next in a revision plan."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Past Papers"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="An approach where the student redoes the same papers until s/he achieves the grades wanted in that paper."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="132dp"
+                        android:layout_height="match_parent"
+                        android:text="Diagrams and Sketches"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="A visual approach to establishing a more real life understanding of mathematical calculations."
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Mind Maps"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+
+                        android:text="A method of drawing topics and links between them."
+                        android:textSize="18sp" />
+                </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
